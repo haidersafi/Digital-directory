@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+h1
+{
+  font-family: 'Viaoda Libre', cursive;
+  text-shadow: 5px 3px #474646;
+  font-size: 3rem;
+  color: rgb(255,215,0);
+  letter-spacing: 4px;
+  margin-top: 0px;
+}

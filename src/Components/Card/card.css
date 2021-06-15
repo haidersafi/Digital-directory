@@ -1,0 +1,25 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    border:none;
+    border-radius: 5px;
+    background-color:rgb(206, 206, 177);
+    padding:20px;
+    backface-visibility: hidden;
+    /* transform: translateZ(0); */
+    transition: transform 0.15s ease-in-out;
+    justify-content: center;
+    margin: 0 auto;
+    min-width:17vw;
+
+}
+.card:hover{
+transform: scale(1.05);
+}
+
+img{
+    border-radius: 10px;
+}
+h4{
+    margin-bottom: 2px;
+}
